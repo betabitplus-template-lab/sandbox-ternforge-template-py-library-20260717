@@ -1,0 +1,22 @@
+_subdirectory: template
+_answers_file: .copier-answers.yml
+_exclude:
+  - _components
+  - "**/_components/**"
+_skip_if_exists:
+  - src/**
+  - tests/**
+  - docs/**
+  - examples/**
+  - workbench/**
+  - README.md
+
+project_name:
+  type: str
+  default: Example Python Library
+project_slug:
+  type: str
+  default: "{{ project_name | lower | replace(' ', '-') }}"
+package_name:
+  type: str
+  default: "{{ project_slug | replace('-', '_') }}"

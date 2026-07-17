@@ -1,0 +1,3 @@
+[submodule "template/_components"]
+	path = template/_components
+	url = https://github.com/betabitplus-template-lab/sandbox-ternforge-components-20260717.git

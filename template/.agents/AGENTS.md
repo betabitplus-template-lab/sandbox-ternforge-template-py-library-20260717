@@ -1,0 +1,1 @@
+../_components/components/agents/base/AGENTS.md
