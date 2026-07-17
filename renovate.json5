@@ -1,4 +1,5 @@
 {
   "automerge": false,
-  "enabledManagers": ["git-submodules"]
+  "enabledManagers": ["git-submodules"],
+  "git-submodules": {"enabled": true}
 }
